@@ -1,0 +1,18 @@
+.button{
+    -fx-font: 16px Arial;
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+}
+.choice-box{
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+    -fx-font: 16px Arial;
+    -fx-text-alignment: center;
+}
+.text-area{
+    -fx-wrap-text: true;
+    -fx-base: lightblue
+}
+.border-pane{
+    -fx-background-color: lightgrey;
+}
