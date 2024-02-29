@@ -11,7 +11,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        stage.setTitle("Tłumacz");
+        stage.setTitle("Translator");
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent layout = fxmlLoader.load();
