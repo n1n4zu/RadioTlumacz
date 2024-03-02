@@ -26,6 +26,10 @@ public class Translator implements Initializable {
     @FXML
     private TextArea textOutput = new TextArea();
 
+
+    /**
+     * Metoda wyświetla przetłumaczony tekst, który został wcześniej wpisany
+     */
     @FXML
     public void showTranslation() {
 
@@ -45,6 +49,12 @@ public class Translator implements Initializable {
         }
     }
 
+
+    /**
+     * Metoda pobierająca wpisany tekst i tłumacząca go na alfabet radiowy
+     * @param text - wpisany tekst
+     * @return - zwraca przetłumaczony tekst
+     */
     private String translateToRadio (String text) {
         text = text.toUpperCase();
         text = text.replaceAll("Ą", "A");
@@ -139,6 +149,12 @@ public class Translator implements Initializable {
         return translated.substring(0, translated.length() - 1);
     }
 
+
+    /**
+     * Metoda pobierająca wpisany tekst i tłumacząca go na tekst w języku angielskim
+     * @param text - wpisany tekst
+     * @return - zwraca przetłumaczony tekst
+     */
     private String translateToAlphabet (String text) {
 
         HashMap<String, String> englishAlphabet = new HashMap<String, String>();
