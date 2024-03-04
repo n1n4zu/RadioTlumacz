@@ -52,8 +52,8 @@ public class Translator implements Initializable {
 
     /**
      * Metoda pobierająca wpisany tekst i tłumacząca go na alfabet radiowy
-     * @param text - wpisany tekst
-     * @return - zwraca przetłumaczony tekst
+     * @param text wpisany tekst
+     * @return zwraca przetłumaczony tekst
      */
     private String translateToRadio (String text) {
         text = text.toUpperCase();
@@ -152,8 +152,8 @@ public class Translator implements Initializable {
 
     /**
      * Metoda pobierająca wpisany tekst i tłumacząca go na tekst w języku angielskim
-     * @param text - wpisany tekst
-     * @return - zwraca przetłumaczony tekst
+     * @param text wpisany tekst
+     * @return zwraca przetłumaczony tekst
      */
     private String translateToAlphabet (String text) {
 

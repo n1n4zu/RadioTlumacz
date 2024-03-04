@@ -8,6 +8,11 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 
+    /**
+     * Główna metoda aplikacji
+     * @param stage parametr wymagany do działania aplikacji
+     * @throws Exception wyjątek
+     */
     @Override
     public void start(Stage stage) throws Exception {
 
@@ -20,9 +25,5 @@ public class App extends Application {
 
         stage.setScene(scene);
         stage.show();
-    }
-
-    public static void main (String[] args) {
-        launch(args);
     }
 }

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"gui.nato","l":"App"},{"p":"gui.nato","l":"Translator"}];updateSearchResults();
